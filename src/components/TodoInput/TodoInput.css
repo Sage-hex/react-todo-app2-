@@ -1,0 +1,31 @@
+
+.inputHolder{
+    width: 90%;
+    height: 7%;
+     background-color: white;
+    display: flex;
+    /* padding: 7px; */
+    gap: 19px;
+    /* border: 2px solid red; */
+}
+.inputHolder:focus-within {
+    background-color: transparent;
+  }
+.inputHolder .inputStyle {
+    width: 85%;
+    height: 100%;
+    border-radius: 2px;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 23px;
+  }
+
+  .inputHolder button{
+    width: 20%;
+    height: 100%;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+  }
